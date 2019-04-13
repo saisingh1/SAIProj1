@@ -1,0 +1,11 @@
+  <web-app>
+    <servlet>
+         <servlet-name>show</servlet-name>
+         <servlet-class>com.nt.servlet.VoterServlet1</servlet-class>
+         
+    </servlet>
+    <servlet-mapping>
+     <servlet-name>show</servlet-name>
+      <url-pattern>/wishurl</url-pattern>
+      </servlet-mapping>
+  </web-app>
